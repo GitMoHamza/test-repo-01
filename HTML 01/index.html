@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Elements</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        img, audio, video {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Elements Example</h1>
+
+    <!-- Image Element -->
+    <h2>Image</h2>
+    <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Description of the image" width="600">
+
+    <!-- Audio Element -->
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="Audio\sad_loop.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>Video</h2>
+    <video controls width="600">
+        <source src="https://videos.pexels.com/video-files/7999451/7999451-hd_1280_720_25fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
